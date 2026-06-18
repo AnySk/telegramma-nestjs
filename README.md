@@ -34,7 +34,7 @@ in your app's `package.json` so Telegraf resolves to `@anysk/telegramma-types`:
 
 ```jsonc
 "overrides": {
-  "@telegraf/types": "npm:@anysk/telegramma-types@^10.1.0"
+  "@telegraf/types": "npm:@anysk/telegramma-types@^10.1.1"
 }
 ```
 
@@ -45,4 +45,4 @@ v10.1 types (rich messages, live photos, guest mode, poll media, etc.).
 Check out the [documentation site](https://telegramma-nestjs-docs.samoilenko.tk/).
 
 ## Activity
-![Alt](https://repobeats.axiom.co/api/embed/3a0b83192feaeff27d8a7f78f53e5cb951f94dac.svg "Repobeats analytics image")
+![Alt](https://repobeats.axiom.co/api/embed/cd5ae6deecce2194803cb532a1def788660b8074.svg "Repobeats analytics image")
