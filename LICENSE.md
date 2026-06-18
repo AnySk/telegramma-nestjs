@@ -1,6 +1,7 @@
 MIT License
 
 Copyright (c) 2019 - present 0x467 (0x467@pm.me)
+Copyright (c) 2026 - present AnySk (telegramma-nestjs fork)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

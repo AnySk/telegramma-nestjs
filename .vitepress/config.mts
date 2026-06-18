@@ -40,7 +40,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/0x467/nestjs-telegraf' }
+      { icon: 'github', link: 'https://github.com/AnySk/telegramma-nestjs' }
     ]
   }
 })
