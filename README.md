@@ -23,23 +23,14 @@ This package uses the best of the NodeJS world under the hood. [Telegraf](https:
 ## Installation
 
 ```bash
-$ npm i @anysk/telegramma-nestjs telegraf
+$ npm i @anysk/telegramma-nestjs @anysk/telegramma
 ```
 
-### Getting Bot API v10.1 types
-
-Telegraf still ships older `@telegraf/types`. To use the updated types from this
-fork, add an [npm override](https://docs.npmjs.com/cli/v10/configuring-npm/package-json#overrides)
-in your app's `package.json` so Telegraf resolves to `@anysk/telegramma-types`:
-
-```jsonc
-"overrides": {
-  "@telegraf/types": "npm:@anysk/telegramma-types@^10.1.1"
-}
-```
-
-Then reinstall (`npm install`). Imports from `telegraf` now expose all Bot API
-v10.1 types (rich messages, live photos, guest mode, poll media, etc.).
+This package is built on [`@anysk/telegramma`](https://github.com/AnySk/telegramma)
+(a Telegraf fork tracking the latest Bot API) which in turn ships
+[`@anysk/telegramma-types`](https://github.com/AnySk/telegramma-types). So you get
+full **Telegram Bot API v10.1** support (rich messages, live photos, guest mode,
+poll media, join-request queries, etc.) out of the box — no npm overrides needed.
 
 ## Documentation
 Check out the [documentation site](https://telegramma-nestjs-docs.samoilenko.tk/).

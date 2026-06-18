@@ -1,5 +1,5 @@
 import { Inject } from '@nestjs/common';
-import { Telegraf } from 'telegraf';
+import { Telegraf } from '@anysk/telegramma';
 
 import { getAllBotsToken } from '../../utils/get-all-bots-token.util';
 

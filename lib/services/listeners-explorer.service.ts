@@ -5,7 +5,7 @@ import { MetadataScanner } from '@nestjs/core/metadata-scanner';
 import { Module } from '@nestjs/core/injector/module';
 import { ParamMetadata } from '@nestjs/core/helpers/interfaces';
 import { ExternalContextCreator } from '@nestjs/core/helpers/external-context-creator';
-import { Composer, Context, Scenes, Telegraf } from 'telegraf';
+import { Composer, Context, Scenes, Telegraf } from '@anysk/telegramma';
 
 import { MetadataAccessorService } from './metadata-accessor.service';
 import {

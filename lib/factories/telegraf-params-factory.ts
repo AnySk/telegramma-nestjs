@@ -1,6 +1,6 @@
 import { ParamData } from '@nestjs/common';
 import { ParamsFactory } from '@nestjs/core/helpers/external-context-creator';
-import { Context } from 'telegraf';
+import { Context } from '@anysk/telegramma';
 import { TelegrafParamtype } from '../enums/telegraf-paramtype.enum';
 
 export class TelegrafParamsFactory implements ParamsFactory {

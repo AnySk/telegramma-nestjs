@@ -1,4 +1,4 @@
-import { Composer } from 'telegraf';
+import { Composer } from '@anysk/telegramma';
 import { ComposerMethodArgs, OnlyFunctionPropertyNames } from '../types';
 import { LISTENERS_METADATA } from '../telegraf.constants';
 import { ListenerMetadata } from '../interfaces';

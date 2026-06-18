@@ -1,5 +1,5 @@
 import { Provider } from '@nestjs/common';
-import { Telegraf } from 'telegraf';
+import { Telegraf } from '@anysk/telegramma';
 import { TELEGRAF_ALL_BOTS } from './telegraf.constants';
 
 export const allBotsMap = new Map<string, Telegraf<any>>();

@@ -1,4 +1,4 @@
-import { Telegraf } from 'telegraf';
+import { Telegraf } from '@anysk/telegramma';
 import { TelegrafModuleOptions } from '../interfaces';
 import { Logger } from '@nestjs/common';
 

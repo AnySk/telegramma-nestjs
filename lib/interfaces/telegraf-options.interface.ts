@@ -1,5 +1,5 @@
 import { ModuleMetadata, Type } from '@nestjs/common/interfaces';
-import { Middleware, Telegraf } from 'telegraf';
+import { Middleware, Telegraf } from '@anysk/telegramma';
 
 export interface TelegrafModuleOptions {
   token: string;

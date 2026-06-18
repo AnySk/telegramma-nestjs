@@ -1,4 +1,4 @@
-import { SceneOptions } from 'telegraf/typings/scenes/base';
+import { SceneOptions } from '@anysk/telegramma/typings/scenes/base';
 
 export interface SceneMetadata {
   sceneId: string;

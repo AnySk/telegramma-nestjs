@@ -1,4 +1,4 @@
-import { Composer, Middleware } from 'telegraf';
+import { Composer, Middleware } from '@anysk/telegramma';
 
 export type Filter<T extends any[], F> = T extends []
   ? []
