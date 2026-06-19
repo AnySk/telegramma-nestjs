@@ -1,6 +1,6 @@
 {
   "name": "@anysk/telegramma-nestjs",
-  "version": "3.0.2",
+  "version": "4.0.0",
   "description": "Telegraf module for NestJS",
   "keywords": [
     "nest",
@@ -25,18 +25,13 @@
     {
       "name": "Timur Samoilenko",
       "email": "develop@samoilenko.tk"
-    },
-    {
-      "name": "Nikolay Simonov",
-      "email": "nksmnf@gmail.com"
-    },
-    {
-      "name": "Arthur Asimov",
-      "email": "arthur.asimov.z0@gmail.com"
     }
   ],
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "build": "rm -rf dist && tsc -p tsconfig.json",
     "precommit": "lint-staged",
@@ -63,29 +58,29 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@commitlint/cli": "19.8.0",
-    "@commitlint/config-angular": "19.8.0",
+    "@commitlint/cli": "20.5.3",
+    "@commitlint/config-angular": "20.5.3",
     "@nestjs/common": "^11.1.0",
     "@nestjs/core": "^11.1.0",
-    "@types/lodash": "4.17.16",
-    "@typescript-eslint/eslint-plugin": "8.31.0",
-    "@typescript-eslint/parser": "8.31.0",
-    "eslint": "^9.25.1",
-    "eslint-config-prettier": "10.1.2",
-    "eslint-plugin-prettier": "5.2.6",
+    "@types/lodash": "4.17.24",
+    "@typescript-eslint/eslint-plugin": "8.61.1",
+    "@typescript-eslint/parser": "8.61.1",
+    "eslint": "^9.39.4",
+    "eslint-config-prettier": "10.1.8",
+    "eslint-plugin-prettier": "5.5.6",
     "husky": "9.1.7",
-    "lint-staged": "15.5.1",
-    "prettier": "3.5.3",
+    "lint-staged": "16.4.0",
+    "prettier": "3.8.4",
     "reflect-metadata": "^0.2.2",
-    "@anysk/telegramma": "^4.17.0",
-    "typedoc": "0.28.3",
-    "typescript": "5.8.3",
+    "@anysk/telegramma": "^4.18.0",
+    "typedoc": "0.28.19",
+    "typescript": "5.9.3",
     "vitepress": "^1.6.3"
   },
   "peerDependencies": {
-    "@nestjs/common": "^10.0.0 || ^11.0.0",
-    "@nestjs/core": "^10.0.0 || ^11.0.0",
-    "@anysk/telegramma": "^4.17.0",
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/core": "^11.0.0",
+    "@anysk/telegramma": "^4.18.0",
     "reflect-metadata": "^0.2.2",
     "typescript": "^4.1.2 || ^5.0.0"
   }
