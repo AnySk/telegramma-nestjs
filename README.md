@@ -6,7 +6,7 @@
 
 Telegramma NestJS – powerful solution for creating Telegram bots.
 
-> **Fork notice.** This is a maintained fork of [`nestjs-telegraf`](https://github.com/0x467/nestjs-telegraf), published as **`@anysk/telegramma-nestjs`**. It tracks the latest **Telegram Bot API (v10.2)** by overriding Telegraf's type dependency with the sibling fork [`@anysk/telegramma-types`](https://github.com/AnySk/telegramma-types).
+> **Fork notice.** This is a maintained fork of [`nestjs-telegraf`](https://github.com/0x467/nestjs-telegraf), published as **`@anysk/telegramma-nestjs`**. It tracks the latest **Telegram Bot API (v10.3)** through the sibling forks [`@anysk/telegramma`](https://github.com/AnySk/telegramma) and [`@anysk/telegramma-types`](https://github.com/AnySk/telegramma-types).
 
 This package uses the best of the NodeJS world under the hood. [Telegraf](https://github.com/telegraf/telegraf) is the most powerful library for creating bots and [NestJS](https://github.com/nestjs) is a progressive framework for creating well-architectured applications. This module provides fast and easy way for creating Telegram bots and deep integration with your NestJS application.
 
@@ -29,8 +29,9 @@ $ npm i @anysk/telegramma-nestjs @anysk/telegramma
 This package is built on [`@anysk/telegramma`](https://github.com/AnySk/telegramma)
 (a Telegraf fork tracking the latest Bot API) which in turn ships
 [`@anysk/telegramma-types`](https://github.com/AnySk/telegramma-types). So you get
-full **Telegram Bot API v10.2** support (ephemeral messages, rich messages, live photos,
-guest mode, poll media, join-request queries, etc.) out of the box — no npm overrides needed.
+full **Telegram Bot API v10.3** support (ephemeral messages, rich messages, live photos,
+guest mode, stopped message generation updates, disabled inline buttons, etc.) out of the
+box — no npm overrides needed.
 
 ## Documentation
 

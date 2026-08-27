@@ -1,6 +1,6 @@
 {
   "name": "@anysk/telegramma-nestjs",
-  "version": "4.1.0",
+  "version": "4.2.0",
   "description": "Telegraf module for NestJS",
   "keywords": [
     "nest",
@@ -72,7 +72,7 @@
     "lint-staged": "16.4.0",
     "prettier": "3.8.4",
     "reflect-metadata": "^0.2.2",
-    "@anysk/telegramma": "^4.19.0",
+    "@anysk/telegramma": "^4.20.0",
     "typedoc": "0.28.19",
     "typescript": "5.9.3",
     "vitepress": "^1.6.3"
@@ -80,7 +80,7 @@
   "peerDependencies": {
     "@nestjs/common": "^11.0.0",
     "@nestjs/core": "^11.0.0",
-    "@anysk/telegramma": "^4.19.0",
+    "@anysk/telegramma": "^4.20.0",
     "reflect-metadata": "^0.2.2",
     "typescript": "^4.1.2 || ^5.0.0"
   }
