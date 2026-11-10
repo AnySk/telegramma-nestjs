@@ -3,8 +3,8 @@ At times you may need to access the native `Telegraf` instance. You can inject t
 
 ```typescript {8} title="src/echo/echo.service.ts"
 import { Injectable } from '@nestjs/common';
-import { InjectBot } from 'nestjs-telegraf';
-import { Telegraf } from 'telegraf';
+import { InjectBot } from '@anysk/telegramma-nestjs';
+import { Telegraf } from '@anysk/telegramma';
 import { TelegrafContext } from '../common/interfaces/telegraf-context.interface.ts';
 
 @Injectable()
@@ -18,8 +18,8 @@ If you run [multiple bots](/extras/multiple-bots) in the same application, expli
 
 ```typescript {8} title="src/echo/echo.service.ts"
 import { Injectable } from '@nestjs/common';
-import { InjectBot } from 'nestjs-telegraf';
-import { Telegraf } from 'telegraf';
+import { InjectBot } from '@anysk/telegramma-nestjs';
+import { Telegraf } from '@anysk/telegramma';
 import { TelegrafContext } from '../common/interfaces/telegraf-context.interface.ts';
 
 @Injectable()

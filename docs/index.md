@@ -1,13 +1,13 @@
 # Installation
 ```bash
-$ npm i nestjs-telegraf telegraf
+$ npm i @anysk/telegramma-nestjs @anysk/telegramma
 ```
 
 Once the installation process is complete, we can import the `TelegrafModule` into the root `AppModule`.
 
 ```typescript title="src/app.module.ts"
 import { Module } from '@nestjs/common';
-import { TelegrafModule } from 'nestjs-telegraf';
+import { TelegrafModule } from '@anysk/telegramma-nestjs';
 
 @Module({
   imports: [
